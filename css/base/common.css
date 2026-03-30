@@ -1,0 +1,94 @@
+body {
+  font-family: "Fredoka";
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+
+    @media screen and (min-width: 480px) {
+        width: 480px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }    
+
+    @media screen and (min-width: 768px) {
+        width: 768px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    @media screen and (min-width: 1200px) {
+
+        width: 1200px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+    header {
+        background-color: #34074a;
+    }
+
+    footer {
+        background-color: #34074a;
+    }
+
+    .arrow-left {
+        transform: rotateY(180deg);
+    }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.flexbox {
+    display: flex;
+    align-items: center;
+}
+
+
+.ukraine {
+  background: linear-gradient(to bottom, #FFD700 40%, #0057B7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.niceyellow {
+    color: rgb(255, 230, 0);
+}
+
+.red {
+    color: red;
+}
+
+.gray {
+    color: #9e9e9e;
+}
+
+input::placeholder {
+    color: #9e9e9e;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    color: white;
+}
+
+button {
+  cursor: pointer;
+}

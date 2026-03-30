@@ -1,0 +1,114 @@
+{
+  "en": {
+    "email": "info@kppt.fi",
+
+    "hhome": "Home",
+    "haboutus": "About Us",
+    "hproducts": "Products",
+    "hdroneservice": "Drone Service",
+    "horders": "Orders",
+    "hcontactus": "Contact Us",
+
+    "hreffect": "Effective drone service",
+    "hrdevelop": "Drone developers",
+    "hrdonate": "Donate",
+
+    "drheadline": "Drones manufactured by KPPT",
+
+    "drstath": "Stats:",
+    "drdistanceh": "Distance: A highly versatile solution for operations against targets at distances up to 25 kilometres.",
+    "drcarryh": "Carry: Carries up to 4 kg of payload.",
+    "drdesch": "Desc: Modular system enables several proprietary options, like a 4x4 Safe and Arm mechanism, or a dropping mechanism.",
+    "drname": "Simo 10",
+    "drdesc": "Kamikaze",
+
+    "drinfo": "KPPT 4x4 is top of the line S&A Device combining the latest best practices from the battlefield.",
+    "drinfo1": "Safety is critical for the sapper arming the FPV drone—there is no room for compromise. Four independent safety mechanisms ensure complete operational safety.",
+    "drdesch1": "When it is time to go bang, there are 4 ways to ensure the sufficient voltage is delivered to the electrical fuse - and bang it goes.",
+    "drname1": "KPPT 4×4",
+    "drdesc1": "Transmitter",
+
+    "drinfobig": "Safety of use is the utmost importance for the sapper who arms the FPV drone. There is no room for any compromise. The sapper expects and demands 100% safety. The 4 independent safety mechanisms guarantee the operational safety.",
+
+    "ctheadline": "How can we help you?",
+    "ctemail": "Email",
+    "ctquetion": "Want to place your order or work with us?",
+    "ctquetion1": "Leave your contacts and we will check in with you!",
+    "ctlbname": "Your name",
+    "ctlbemail": "Email",
+    "ctlbmessage": "Your message",
+    "ctsubmit": "Send",
+
+    "fqheadline": "frequently asked question",
+
+    "ftheader": "Top Section",
+    "fthero": "Main Section",
+    "ftaboutus": "About Us",
+    "ftdrones": "Our Drones",
+    "ftcontactus": "Contact Us",
+    "ftfaq": "Faq",
+    "ftfooter": "Bottom Section",
+    "ftcontact": "Please contact:",
+
+
+
+    "dsheadline": "KPPT DRONE OY – Drone Development, Manufacturing & Maintenance",
+    "dstext": "Drone Maintenance Services We provide professional maintenance and repair services for various types of drones. Our services include diagnostics, component replacement, firmware updates, calibration, and performance optimization. Regular maintenance ensures reliable operation, extended lifespan, and maximum efficiency of your equipment."
+  },
+  "fi": {
+    "email": "info@kppt.fi",
+
+    "hhome": "Koti",
+    "hproducts": "Tuotteet",
+    "hdroneservice": "Dronen palvelu",
+    "horders": "Tilaukset",
+    "hcontactus": "Ota yhteyttä",
+
+    "hreffect": "Tehokas dronen palvelu",
+    "hrdevelop": "Drone-kehittäjät",
+    "hrdonate": "Lahjoita",
+
+    "drheadline": "KPPT:n valmistamat droonit",
+
+    "drstath": "Tiedot:",
+    "drdistanceh": "Kantama: Erittäin monipuolinen ratkaisu operaatioihin kohteita vastaan jopa 25 kilometrin etäisyydelle.",
+    "drcarryh": "Kantokyky: Kuljettaa jopa 4 kg hyötykuormaa.",
+    "drdesch": "Kuvaus: Modulaarinen järjestelmä mahdollistaa lisävarusteet, kuten 4x4 Safe and Arm - tai pudotusmekanismin.",
+    "drname": "Simo 10",
+    "drdesc": "Kamikaze",
+
+    "drinfo": "KPPT 4x4 on huippuluokan S&A-laite, joka yhdistää uusimmat parhaat käytännöt taistelukentältä.",
+    "drinfo1": "Turvallisuus on kriittistä sapperille, joka aseistaa FPV-dronea — kompromisseille ei ole sijaa. Neljä itsenäistä turvamekanismia varmistavat täydellisen toimintaturvallisuuden.",
+    "drdesch1": "Kun on aika räjäyttää, on neljä tapaa varmistaa, että riittävä jännite toimitetaan sähköiseen sytyttimeen — ja pam se tapahtuu.",
+    "drname1": "KPPT 4×4",
+    "drdesc1": "Lähetin",
+
+    "drinfobig": "Käytön turvallisuus on äärimmäisen tärkeää sapperille, joka aseistaa FPV-dronen. Kompromisseille ei ole sijaa. Sapperi odottaa ja vaatii 100 % turvallisuutta. Neljä itsenäistä turvamekanismia takaavat toimintavarmuuden.",
+
+    "ctheadline": "Kuinka voimme auttaa sinua?",
+    "ctemail": "Sähköposti",
+    "ctquetion": "Haluatko tehdä tilauksen tai työskennellä kanssamme?",
+    "ctquetion1": "Jätä yhteystietosi, niin otamme sinuun yhteyttä!",
+    "ctlbname": "Sinun nimi",
+    "ctlbemail": "Email",
+    "ctlbmessage": "Sinun viesti",
+    "ctsubmit": "Lähetä",
+
+    "fqheadline": "usein kysytty kysymys",
+
+
+    "ftheader": "Yläosa",
+    "fthero": "Pääosio",
+    "ftaboutus": "Tietoa meistä",
+    "ftdrones": "Droonimme",
+    "ftcontactus": "Ota yhteyttä",
+    "ftfaq": "UKK",
+    "ftfooter": "Alaosa",
+    "fpcontact": "Ota yhteyttä:",
+
+
+
+    "dsheadline": "KPPT DRONE OY – Droonien kehitys, valmistus ja huolto",
+    "dstext": "Droonien huoltopalvelut: Tarjoamme ammattimaisia huolto- ja korjauspalveluja erilaisille drooneille. Palveluihimme kuuluvat diagnostiikka, komponenttien vaihto, ohjelmistopäivitykset, kalibrointi ja suorituskyvyn optimointi. Säännöllinen huolto varmistaa luotettavan toiminnan, pidemmän käyttöiän ja maksimaalisen tehokkuuden laitteillesi."
+  }
+}

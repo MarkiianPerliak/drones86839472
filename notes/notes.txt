@@ -1,0 +1,195 @@
+//     "hcontactus": "Contact Us",      "hcontactus": "Ota yhteyttä",
+
+
+        <div class="drones__slide-box">
+            <img draggable="false" class="arrow-left arrow" src="./assets/icons/arrow.svg" alt="arrow">
+            <div class="drones__current-slide">
+                <!-- <div class="drone__slide">
+                    <img src="" alt="" class="drone__slide-img">
+                    <div class="drone__text-box">
+                        <h3 class="drone__name"></h3>
+                        <p class="drone__info"></p>
+                    </div>
+                </div> -->
+            </div>
+            <img draggable="false" class="arrow-right arrow" src="./assets/icons/arrow.svg" alt="arrow">
+        </div>
+
+
+
+            // "milsimo": "Simo 10",
+    // "mil4x4": "KPPT 4×4",
+
+    // "infheadlines": "Simo 10",
+
+    // "inftext1": "A highly versatile solution for operations against targets at distances ranging up to 25 kilometres.",
+    // "inftext2": "Carries up to 4 kg of payload.",
+    // "inftext3": "Modular system enables several proprietary options, like a 4x4 Safe and Arm mechanism, or a dropping mechanism.",
+    // "inftext4": "Also possible to equip with thermal or night vision cameras and a scrambling device for the analog video feedback.",
+
+
+    // "infheadlineskp": "Kppt 4×4 safe & arm device",
+
+    // "inftext1kp": "KPPT 4x4 is top of the line S&A Device combining the latest best practices from the battlefield.",
+    // "inftext2kp": "Safety of use is the utmost importance for the sapper who arms the FPV drone. There is no room for any compromise. The sapper expects and demands 100% safety. The 4 independent safety mechanisms guarantee the operational safety.",
+    // "inftext3kp": "When it is time to go bang, there are 4 ways to ensure the sufficient voltage is delivered to the electrical fuse - and bang it goes.",
+
+
+    // "infcontwarn": "For eligibility check and for pricing, please contact",
+    // "infwarn": "Not for consumer sales!"
+
+
+    // "milsimo": "Simo 10",
+    // "mil4x4": "KPPT 4×4",
+
+    // "infheadlines": "Simo 10",
+
+    // "inftext1": "Erittäin monipuolinen ratkaisu operaatioihin kohteita vastaan jopa 25 kilometrin etäisyydelle asti.",
+    // "inftext2": "Kantokyky jopa 4 kg hyötykuormaa.",
+    // "inftext3": "Modulaarinen järjestelmä mahdollistaa useita omia ratkaisuja, kuten 4x4 Safe and Arm -mekanismin tai pudotusmekanismin.",
+    // "inftext4": "Voidaan varustaa myös lämpö- tai pimeänäkökameroilla sekä häirintälaitteella analogista videokuvaa varten.",
+
+    // "infheadlineskp": "Kppt 4×4 turvallisuus- ja virityslaite",
+
+    // "inftext1kp": "KPPT 4x4 on huipputason S&A-laite, joka yhdistää uusimmat ja parhaat käytännöt taistelukentältä.",
+    // "inftext2kp": "Käytön turvallisuus on ensiarvoisen tärkeää sapöörille, joka virittää FPV-dronen. Kompromisseille ei ole sijaa. Sapööri odottaa ja vaatii 100 % turvallisuutta. Neljä itsenäistä turvamekanismia takaavat operatiivisen turvallisuuden.",
+    // "inftext3kp": "Kun on aika toimia, on neljä tapaa varmistaa riittävä jännite sähköiselle sytyttimelle – ja laite toimii.",
+
+    // "infcontwarn": "Kelpoisuustarkistuksia ja hinnoittelua varten, ota yhteyttä",
+    // "infwarn": "Ei kuluttajamyyntiin!"
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <title>KPPT</title>
+    <link rel="icon" href="../assets/icons/fpvlogo.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/base/common.css">
+    <link rel="stylesheet" href="../css/base/normalize.css">
+    <link rel="stylesheet" href="../css/base/reset.css">
+    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/3.2.0/email.min.js"></script>
+</head>
+<body>
+    <header id="header" class="header">
+        <div class="container flexbox">
+            <nav class="header__nav">
+                            <div class="header__menu-box">
+                <a href="./index.html"><img draggable="false" class="header__logo"
+                        src="./assets/icons/fpvlogo.svg"></img></a>
+                <img class="header__svg-menu"></img>
+            </div>
+                <ul class="header__list">
+                    <!-- <li class="header__item"><a href="./index.html" data-i18n="hhome" class="header__link current"></a></li> -->
+                    <!-- <li class="header__item"><a href="#about-us" data-i18n="haboutus" class="header__link"></a></li> -->
+                    <li class="header__item"><a href="#drones" data-i18n="hproducts" class="header__link"></a></li>
+                    <!-- <li class="header__item"><a href="" data-i18n="hcontactus" class="header__link"></a></li> -->
+                    <li class="header__item"><a href="#contact-us" data-i18n="hcontactus" class="header__link"></a></li>
+                    <li class="header__item"><a href="./pages/droneservice.html" data-i18n="hdroneservice" class="header__link"></a></li>
+                </ul>
+                <a class="header__email" href="mailto:info@kppt.fi">info@kppt.fi</a>
+                <ul class="header__lang-change">
+                    <li class="header__lang-opt line"><button data-lang="en"
+                            class="header__lang-actv lang-left">En</button></li>
+                    <li class="header__lang-opt"><button data-lang="fi" class="header__lang-actv lang-right">Su</button>
+                    </li>
+                </ul>
+
+            </nav>
+        </div>
+    </header>
+
+
+        <footer id="footer">
+        <div class="container flexbox">
+            <img draggable="false" class="footer__logo" src="./assets/icons/fpvlogo.svg"></img>
+            <div class="flexbox-f">
+                <ul class="footer__sections">
+                    <li class="footer__section">
+                        <a data-i18n="ftheader" href="#header" class="footer__section-name"></a>
+                    </li>
+                    <li class="footer__section">
+                        <a data-i18n="fthero" href="#hero" class="footer__section-name"></a>
+                    </li>
+                    <!-- <li class="footer__section">
+                        <a data-i18n="ftaboutus" href="#about-us" class="footer__section-name"></a>
+                    </li> -->
+                    <li class="footer__section">
+                        <a data-i18n="ftdrones" href="#drones" class="footer__section-name"></a>
+                    </li>
+                </ul>
+                <ul class="footer__sections">
+                    <li class="footer__section">
+                        <a data-i18n="ftcontactus" href="#contact-us" class="footer__section-name"></a>
+                    </li>
+                    <li class="footer__section">
+                        <a data-i18n="ftfaq" href="#faq" class="footer__section-name"></a>
+                    </li>
+                    <li class="footer__section">
+                        <a data-i18n="ftfooter" href="#footer" class="footer__section-name"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__contact-box">
+                <p class="footer__contact" data-i18n="ftcontact"></p>
+                <a class="footer__email" href="mailto:info@kppt.fi">info@kppt.fi</a>
+            </div>
+        </div>
+    </footer>
+    <script type="module" src="./js/app.js"></script>
+    <script type="module" src="../js/translator.js"></script>
+</body>
+</html>
+
+
+
+
+
+                <button data-i18n="hrdonate" type="button" class="hero__button"></button>
+
+
+
+@media screen and (min-width: 480px) {
+
+}    
+
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 1200px) {
+
+}
+
+.backdrop {
+    background: rgba(0, 0, 0, 0.20);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+
+.modal {
+  background-color: #34074a;
+  border: none;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding: 10px;
+  width: 400px;
+}

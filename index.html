@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KPPT - Home</title>
+    <link rel="icon" href="./assets/icons/fpvlogo.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/base/common.css">
+    <link rel="stylesheet" href="./css/base/normalize.css">
+    <link rel="stylesheet" href="./css/base/reset.css">
+    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/3.2.0/email.min.js"></script>
+</head>
+
+<body>
+    <header id="header" class="header">
+        <div class="container flexbox">
+            <nav class="header__nav">
+                <div class="header__menu-box">
+                    <a href="./index.html"><img draggable="false" class="header__logo"
+                            src="./assets/icons/fpvlogo.svg"></img></a>
+                    <svg class="header__svg" fill="#ffffff" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24.75 24.75" xml:space="preserve"
+                        stroke="#ffffff">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <g>
+                                <path
+                                    d="M0,3.875c0-1.104,0.896-2,2-2h20.75c1.104,0,2,0.896,2,2s-0.896,2-2,2H2C0.896,5.875,0,4.979,0,3.875z M22.75,10.375H2 c-1.104,0-2,0.896-2,2c0,1.104,0.896,2,2,2h20.75c1.104,0,2-0.896,2-2C24.75,11.271,23.855,10.375,22.75,10.375z M22.75,18.875H2 c-1.104,0-2,0.896-2,2s0.896,2,2,2h20.75c1.104,0,2-0.896,2-2S23.855,18.875,22.75,18.875z">
+                                </path>
+                            </g>
+                        </g>
+                    </svg>
+                </div>
+
+                <div class="flexbox nomobile">
+                    <a href="./index.html"><img draggable="false" class="header__logo"
+                            src="./assets/icons/fpvlogo.svg"></img></a>
+                    <ul class="header__list">
+                        <!-- <li class="header__item"><a href="./index.html" data-i18n="hhome" class="header__link current"></a></li> -->
+                        <!-- <li class="header__item"><a href="#about-us" data-i18n="haboutus" class="header__link"></a></li> -->
+                        <li class="header__item"><a href="#drones" data-i18n="hproducts" class="header__link"></a></li>
+                        <!-- <li class="header__item"><a href="" data-i18n="hcontactus" class="header__link"></a></li> -->
+                        <li class="header__item"><a href="#contact-us" data-i18n="hcontactus" class="header__link"></a>
+                        </li>
+                        <li class="header__item"><a href="./pages/droneservice.html" data-i18n="hdroneservice"
+                                class="header__link"></a></li>
+                    </ul>
+                    <a class="header__email" href="mailto:info@kppt.fi">info@kppt.fi</a>
+                    <ul class="header__lang-change">
+                        <li class="header__lang-opt line"><button data-lang="en"
+                                class="header__lang-actv lang-left">En</button></li>
+                        <li class="header__lang-opt"><button data-lang="fi"
+                                class="header__lang-actv lang-right">Su</button>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero" class="hero">
+        <div class="container flexbox-hero">
+            <div class="">
+                <h1 data-i18n="hreffect" class="hero__headline"></h1>
+                <h2 data-i18n="hrdevelop" class="hero__develop"></h2>
+
+            </div>
+            <img draggable="false" class="graylogo" src="./assets/icons/fpvlogogray.svg" alt="">
+        </div>
+    </section>
+
+
+    <!-- <section id="about-us" class="about-us">
+
+    </section> -->
+    <section class="line-section">
+    </section>
+
+
+    <section id="drones" class="drones">
+        <div class="container">
+            <h1 data-i18n="drheadline" class="drones__headline"></h1>
+            <ul class="drones__list">
+                <li id="dr1" class="drone">
+                    <img draggable="false" src="./assets/img/simo10.jpg" alt="" class="drone__pic">
+                    <div class="hover__info">
+                        <h4 data-i18n="drstath" class="hover__stats"></h4>
+                        <h4 data-i18n="drdistanceh" class="hover__distance"></h4>
+                        <h4 data-i18n="drcarryh" class="hover__carry"></h4>
+                        <h4 data-i18n="drdesch" class="hover__desc"></h4>
+                    </div>
+                    <div class="drone__text-box">
+                        <div>
+                            <h3 data-i18n="drname" class="drone__name"></h3>
+                        </div>
+                    </div>
+                </li>
+                <li id="ts1" class="drone">
+                    <img draggable="false" src="./assets/img/4x4hero.png" alt="" class="drone__pic">
+                    <div class="hover__info">
+                        <h4 data-i18n="drstath" class="hover__stats"></h4>
+                        <h4 data-i18n="drinfo" class="hover__distance"></h4>
+                        <h4 data-i18n="drinfo1" class="hover__carry"></h4>
+                        <h4 data-i18n="drdesch1" class="hover__desc"></h4>
+                    </div>
+                    <div class="drone__text-box">
+                        <div>
+                            <h3 data-i18n="drname1" class="drone__name"></h3>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact-us" class="contact-us">
+        <div class="container contact-us-container">
+            <div class="left-side">
+                <h2 data-i18n="ctheadline" class="contact-us__headline"></h2>
+                <p data-i18n="ctemail" class="contact-us__emtext"></p>
+                <p data-i18n="email" class="contact-us__email"></p>
+            </div>
+            <div class="right-side">
+                <p data-i18n="ctquetion" class="contact-us__quetion"></p>
+                <p data-i18n="ctquetion1" class="contact-us__quetion"></p>
+                <form method="POST" id="ct-form" class="contact-us__form" action="https://formsubmit.co/f97597128a96d375d8e53b92aec8a649">
+                    <div class="flexbox contact-us-gap">
+                        <div class="input-container">
+                            <input name="user" class="contact-us__input" placeholder=" " type="text" required>
+                            <label data-i18n="ctlbname" for=""></label>
+                        </div>
+                        <div class="input-container">
+                            <input name="email" class="contact-us__input" placeholder=" " type="email" required>
+                            <label data-i18n="ctlbemail" for=""></label>
+                        </div>
+                    </div>
+                    <div class="input-container">
+                        <input name="message" class="contact-us__big-input" placeholder=" " type="text" required>
+                        <label data-i18n="ctlbmessage" for=""></label>
+                    </div><input type="hidden" name="_captcha" value="false">
+                    <!-- <div class="g-recaptcha" data-sitekey="YOUR_SITE_KEY"></div>
+                    <div class="g-recaptcha" data-sitekey="6Lfc0jkrAAAAAOiZkQ9Fe0zR3CBl_7nXz9wB5p1B" data-callback="onRecaptchaSuccess"><div style="width: 304px; height: 78px;"><div><iframe title="reCAPTCHA" width="304" height="78" role="presentation" name="a-fykqyrxaqxi" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6Lfc0jkrAAAAAOiZkQ9Fe0zR3CBl_7nXz9wB5p1B&amp;co=aHR0cHM6Ly93d3cudnlyaXkuY29tOjQ0Mw..&amp;hl=en&amp;v=79clEdOi5xQbrrpL2L8kGmK3&amp;size=normal&amp;anchor-ms=20000&amp;execute-ms=30000&amp;cb=e7vxkek3xgpa"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div></div> -->
+                    <button data-i18n="ctsubmit" class="contact-us__submit" type="submit"></button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+    <footer id="footer">
+        <div class="container flexbox">
+            <img draggable="false" class="footer__logo" src="./assets/icons/fpvlogo.svg"></img>
+            <div class="flexbox-f">
+                <ul class="footer__sections">
+                    <li class="footer__section">
+                        <a data-i18n="ftheader" href="#header" class="footer__section-name"></a>
+                    </li>
+                    <li class="footer__section">
+                        <a data-i18n="fthero" href="#hero" class="footer__section-name"></a>
+                    </li>
+                    <!-- <li class="footer__section">
+                        <a data-i18n="ftaboutus" href="#about-us" class="footer__section-name"></a>
+                    </li> -->
+                    <li class="footer__section">
+                        <a data-i18n="ftdrones" href="#drones" class="footer__section-name"></a>
+                    </li>
+                </ul>
+                <ul class="footer__sections">
+                    <li class="footer__section">
+                        <a data-i18n="ftcontactus" href="#contact-us" class="footer__section-name"></a>
+                    </li>
+                    <!-- <li class="footer__section">
+                        <a data-i18n="ftfaq" href="#faq" class="footer__section-name"></a>
+                    </li> -->
+                    <li class="footer__section">
+                        <a data-i18n="ftfooter" href="#footer" class="footer__section-name"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__contact-box">
+                <p class="footer__contact" data-i18n="ftcontact"></p>
+                <a class="footer__email" href="mailto:info@kppt.fi">info@kppt.fi</a>
+            </div>
+        </div>
+    </footer>
+    <!-- MODALS -->
+
+    <div class="backdrop header-backdrop">
+        <div class="header-modal">
+            <button type="button" class="close close-header"><img class="closepic img-headerclose" draggable="false"
+                    src="./assets/icons/cross.svg" alt=""></button>
+            <a href="./index.html"><img draggable="false" class="header__logo img-header"
+                    src="./assets/icons/fpvlogo.svg"></img></a>
+            <ul class="header-modal-list">
+                <!-- <li class="header__item"><a href="./index.html" data-i18n="hhome" class="header__link current"></a></li> -->
+                <!-- <li class="header__item"><a href="#about-us" data-i18n="haboutus" class="header__link"></a></li> -->
+                <li class="header__item"><a href="#drones" data-i18n="hproducts"
+                        class="header__link header__link-modal"></a></li>
+                <!-- <li class="header__item"><a href="" data-i18n="hcontactus" class="header__link"></a></li> -->
+                <li class="header__item"><a href="#contact-us" data-i18n="hcontactus"
+                        class="header__link header__link-modal"></a>
+                </li>
+                <li class="header__item"><a href="./pages/droneservice.html" data-i18n="hdroneservice"
+                        class="header__link header__link-modal"></a></li>
+            </ul>
+            <a class="header__email margins modal-email" href="mailto:info@kppt.fi">info@kppt.fi</a>
+            <ul class="header__lang-change ">
+                <li class="header__lang-opt line"><button data-lang="en"
+                        class="header__lang-actv lang-left hmlang">En</button>
+                </li>
+                <li class="header__lang-opt"><button data-lang="fi"
+                        class="header__lang-actv lang-right hmlang">Su</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="backdrop backdropts">
+        <div class="modalts modal">
+            <div class="modal-left">
+                <button type="button" class="close closets"><img class="closepic" draggable="false"
+                        src="./assets/icons/cross.svg" alt=""></button>
+                <h3 data-i18n="drname1" class="modal__headline"></h3>
+                <ul class="modal__list">
+                    <li class="modal__item">
+                        <p data-i18n="drstath" class="modal__stat"></p>
+                    </li>
+                    <li class="modal__item">
+                        <p data-i18n="drinfo" class="modal__stat"></p>
+                    </li>
+                    <li class="modal__item">
+                        <p data-i18n="drinfobig" class="modal__stats"></p>
+                    </li>
+                    <li class="modal__item">
+                        <p data-i18n="drdesch1" class="modal__stats"></p>
+                    </li>
+                </ul>
+            </div>
+            <img class="modal__pic pic4x4" draggable="false" src="./assets/img/4x4hero.png" alt="">
+        </div>
+    </div>
+
+    <div class="backdrop backdropdr">
+        <div class="modaldr modal">
+            <div class="modal-left">
+                <button type="button" class="close closedr"><img class="closepic" draggable="false"
+                        src="./assets/icons/cross.svg" alt=""></button>
+                <h3 data-i18n="drname" class="modal__headline"></h3>
+                <ul class="modal__list">
+                    <li class="modal__item">
+                        <p data-i18n="drstath" class="modal__stat"></p>
+                    </li>
+                    <li class="modal__item">
+                        <p data-i18n="drdistanceh" class="modal__stats"></p>
+                    </li>
+                    <li class="modal__item">
+                        <p data-i18n="drcarryh" class="modal__stats"></p>
+                    </li>
+                    <li class="modal__item">
+                        <p data-i18n="drdesch" class="modal__stats"></p>
+                    </li>
+                </ul>
+            </div>
+            <img class="modal__pic" draggable="false" src="./assets/img/simo10.jpg" alt="">
+        </div>
+    </div>
+
+
+    <script type="module" src="../js/modal.js"></script>
+    <script type="module" src="./js/app.js"></script>
+    <script type="module" src="./js/translator.js"></script>
+</body>
+
+</html>
