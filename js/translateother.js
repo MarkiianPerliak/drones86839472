@@ -15,7 +15,7 @@ function applyTranslations() {
 
 async function loadTranslations() {
   try {
-    const res = await fetch("./data/translations.json");
+    const res = await fetch("../data/translations.json");
     
 
     if (!res.ok) throw new Error("Failed to load translations");
