@@ -40,7 +40,6 @@
                     <a href="./index.html"><img draggable="false" class="header__logo"
                             src="./assets/icons/fpvlogo.svg"></img></a>
                     <a data-i18n="hhome" class="header__link special-link" href="./index.html"></a>
-                    <a class="header__email" href="mailto:info@kppt.fi">info@kppt.fi</a>
                     <ul class="header__lang-change">
                         <li class="header__lang-opt line"><button data-lang="en"
                                 class="header__lang-actv lang-left">En</button></li>
@@ -58,13 +57,9 @@
         <div class="container drone-service-cont">
             <h1 data-i18n="dsheadline" class="drone-service__headline"></h1>
             <p data-i18n="dstext" class="drone-service__text">
-                Drone Maintenance Services
-                We provide professional maintenance and repair services for various types of drones. Our services
-                include
-                diagnostics, component replacement, firmware updates, calibration, and performance optimization. Regular
-                maintenance ensures reliable operation, extended lifespan, and maximum efficiency of your equipment.
             </p>
-            <img class="drone-service__img" src="./assets/icons/fpvlogogray.svg" alt="">
+            <button data-i18n="dsbutton" class="drone-service__button"></button>
+            <img draggable="false" class="drone-service__img" src="./assets/icons/fpvlogogray.svg" alt="">
         </div>
     </section>
 
@@ -90,6 +85,40 @@
         </div>
     </footer>
 
+    <div class="backdrop contact-us-backdrop">
+        <div class="modal contact-us-modal">
+            <button type="button" class="close close-ct-modal"><img class="closepic" draggable="false"
+                        src="./assets/icons/cross.svg" alt=""></button>
+            <h1 class="contact-us-modal-headline" data-i18n="dsmdheadline"></h1>
+            
+            <div class="contact-us-modal-fb">
+
+            
+            <form id="modal-form" action="">
+                <div class="input-container">
+                    <input placeholder=" " class="cumodal-input" type="text" name="user" id="">
+                    <label class="modal-label" data-i18n="ctlbname" for=""></label>
+                </div>
+                <div class="input-container">
+                    <input placeholder=" " class="cumodal-input" type="text" name="email" id="">
+                    <label class="modal-label" data-i18n="ctemail" for=""></label>
+                </div>
+                <div class="input-container">
+                    <input placeholder=" " class="cumodal-input" type="text" name="type" id="">
+                    <label class="modal-label" data-i18n="cutype" for=""></label>
+                </div>
+                <div class="input-container">
+                    <input placeholder=" " class="cumodal-input" type="text" name="message" id="">
+                    <label class="modal-label" data-i18n="ctlbmessage" for=""></label>
+                </div>
+                <input type="hidden" name="_captcha" value="false">
+                <button data-i18n="ctsubmit" type="submit" class="cumodal-submit"></button>
+            </form>
+            <img class="modal-form-pic" draggable="false" src="./assets/icons/fpvlogo.svg" alt="">
+            </div>
+        </div>
+    </div>
+
     <div class="backdrop header-backdrop">
         <div class="header-modal">
             <button type="button" class="close close-header"><img class="closepic img-headerclose" draggable="false"
@@ -103,7 +132,6 @@
                         href="./index.html"></a>
                 </li>
             </ul>
-            <a class="header__email margins modal-email" href="mailto:info@kppt.fi">info@kppt.fi</a>
             <ul class="header__lang-change ">
                 <li class="header__lang-opt line"><button data-lang="en"
                         class="header__lang-actv lang-left hmlang">En</button>
@@ -115,7 +143,8 @@
         </div>
     </div>
     <script type="module" src="./js/modal.js"></script>
-    <script type="module" src="./js/translate.js"></script>
+    <script type="module" src="./js/drone-service.js"></script>
+    <script type="module" src="./js/translator.js"></script>
 </body>
 
 </html>

@@ -37,6 +37,7 @@
     "ctlbname": "Your name",
     "ctlbemail": "Email",
     "ctlbmessage": "Your message",
+    "cutype": "Drone type",
     "ctsubmit": "Send",
 
     "fqheadline": "frequently asked question",
@@ -53,7 +54,9 @@
 
 
     "dsheadline": "KPPT DRONE OY – Drone Development, Manufacturing & Maintenance",
-    "dstext": "Drone Maintenance Services We provide professional maintenance and repair services for various types of drones. Our services include diagnostics, component replacement, firmware updates, calibration, and performance optimization. Regular maintenance ensures reliable operation, extended lifespan, and maximum efficiency of your equipment."
+    "dstext": "We provide professional maintenance and repair services for various types of drones. Our services include diagnostics, component replacement, firmware updates, calibration, and performance optimization. Regular maintenance ensures reliable operation, extended lifespan, and maximum efficiency of your equipment.",
+    "dsbutton": "Apply form",
+    "dsmdheadline": "Give us info so we can contact you"
   },
   "fi": {
     "email": "info@kppt.fi",
@@ -92,6 +95,7 @@
     "ctlbname": "Sinun nimi",
     "ctlbemail": "Email",
     "ctlbmessage": "Sinun viesti",
+    "cutype": "Drone tyyppi",
     "ctsubmit": "Lähetä",
 
     "fqheadline": "usein kysytty kysymys",
@@ -109,6 +113,8 @@
 
 
     "dsheadline": "KPPT DRONE OY – Droonien kehitys, valmistus ja huolto",
-    "dstext": "Droonien huoltopalvelut: Tarjoamme ammattimaisia huolto- ja korjauspalveluja erilaisille drooneille. Palveluihimme kuuluvat diagnostiikka, komponenttien vaihto, ohjelmistopäivitykset, kalibrointi ja suorituskyvyn optimointi. Säännöllinen huolto varmistaa luotettavan toiminnan, pidemmän käyttöiän ja maksimaalisen tehokkuuden laitteillesi."
+    "dstext": "Tarjoamme ammattimaisia huolto- ja korjauspalveluja erilaisille drooneille. Palveluihimme kuuluvat diagnostiikka, komponenttien vaihto, ohjelmistopäivitykset, kalibrointi ja suorituskyvyn optimointi. Säännöllinen huolto varmistaa luotettavan toiminnan, pidemmän käyttöiän ja maksimaalisen tehokkuuden laitteillesi.",
+    "dsbutton": "Hae lomake",
+    "dsmdheadline": "Anna meille tietoja, jotta voimme ottaa sinuun yhteyttä"
   }
 }
