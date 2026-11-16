@@ -35,8 +35,12 @@ tsBackdrop.addEventListener("click", (e) => {
 
 // CONTACT-US
 
-// const submitBtn = document.querySelector(".contact-us__submit");
-// const contactForm = document.getElementById("ct-form")
+const submitBtn = document.querySelector(".contact-us__submit");
+const contactForm = document.getElementById("ct-form")
+
+// contactForm.addEventListener("submit", (e) => {
+//   e.preventDefault()
+// })
 
 // contactForm.addEventListener("submit", (e) => {
 //   e.preventDefault()

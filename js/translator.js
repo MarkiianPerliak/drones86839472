@@ -1,4 +1,5 @@
-let translations = {};
+import translations from "../data/translations.js";
+
 let currentLang = localStorage.getItem("lang") || "en";
 
 function applyTranslations() {
@@ -13,21 +14,6 @@ function applyTranslations() {
   });
 }
 
-async function loadTranslations() {
-  try {
-    const res = await fetch("./data/translations.json");
-    
-
-    if (!res.ok) throw new Error("Failed to load translations");
-
-    translations = await res.json();
-    applyTranslations();
-
-  } catch (err) {
-    console.error("Translation load error:", err);
-  }
-}
-
 function t(key) {
   return translations[currentLang]?.[key]
       || translations["en"]?.[key]
@@ -40,7 +26,7 @@ function setLanguage(lang) {
   applyTranslations();
 }
 
-loadTranslations();
+applyTranslations();
 
 
 

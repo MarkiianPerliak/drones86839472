@@ -34,11 +34,11 @@ html {
 }
 
     header {
-        background-color: #34074a;
+        background-color: #08040c;
     }
 
     footer {
-        background-color: #34074a;
+        background-color: #1a0326;
     }
 
     .arrow-left {
@@ -64,7 +64,7 @@ html {
 }
 
 .niceyellow {
-    color: rgb(255, 230, 0);
+    color: #ffe600;
 }
 
 .red {
